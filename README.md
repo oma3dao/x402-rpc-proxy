@@ -23,7 +23,7 @@ This service intentionally does **not** use default `@x402/next` wrapper flows (
 X402_PRICE_PER_CALL=1000
 X402_PAYTO_ADDRESS=0x...
 X402_FACILITATOR_URL=https://api.cdp.coinbase.com/platform/v2/x402
-UPSTREAM_RPC_URL_OMA=https://rpc.testnet.chain.oma3.org
+UPSTREAM_RPC_URL_OMACHAIN=https://rpc.testnet.chain.oma3.org
 FREE_METHODS=eth_sendRawTransaction,eth_sendTransaction
 ```
 

@@ -82,7 +82,7 @@ export function loadEnv(): ProxyEnv {
     payToAddress,
     facilitatorUrl,
     facilitatorApiKey: process.env.X402_FACILITATOR_API_KEY,
-    upstreamRpcUrlOma: requireEnv("UPSTREAM_RPC_URL_OMA"),
+    upstreamRpcUrlOma: requireEnv("UPSTREAM_RPC_URL_OMACHAIN"),
     upstreamRpcUrlBase: process.env.UPSTREAM_RPC_URL_BASE,
     upstreamRpcUrlEth: process.env.UPSTREAM_RPC_URL_ETH,
     freeMethods: parseMethods(process.env.FREE_METHODS),

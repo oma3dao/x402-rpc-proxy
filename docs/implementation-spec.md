@@ -572,7 +572,7 @@ Each active chain has its own upstream RPC URL. For v0, only OMAChain testnet is
 
 | Chain    | Env Variable              | Default (v0)                                 |
 | -------- | ------------------------- | -------------------------------------------- |
-| OMAChain | `UPSTREAM_RPC_URL_OMA`    | `https://rpc.testnet.chain.oma3.org`         |
+| OMAChain | `UPSTREAM_RPC_URL_OMACHAIN` | `https://rpc.testnet.chain.oma3.org`         |
 | Base     | `UPSTREAM_RPC_URL_BASE`   | (not configured -- stub returns 501)         |
 | Ethereum | `UPSTREAM_RPC_URL_ETH`    | (not configured -- stub returns 501)         |
 
@@ -593,7 +593,7 @@ Private RPC authentication model to be defined in later spec version. Not in sco
 | `X402_PRICE_PER_CALL`       | Price in token base units (USDC 6 decimals)      | `1000`                                           |
 | `X402_PAYTO_ADDRESS`        | Ethereum address receiving payments (on Base)    | `0xPLACEHOLDER`                                  |
 | `X402_FACILITATOR_URL`      | Facilitator base URL (MUST NOT be hardcoded — may switch to self-hosted facilitator in future) | `https://api.cdp.coinbase.com/platform/v2/x402` |
-| `UPSTREAM_RPC_URL_OMA`      | OMAChain testnet upstream RPC                    | `https://rpc.testnet.chain.oma3.org`             |
+| `UPSTREAM_RPC_URL_OMACHAIN` | OMAChain testnet upstream RPC                    | `https://rpc.testnet.chain.oma3.org`             |
 | `FREE_METHODS`              | Comma-separated free RPC methods                 | `eth_sendRawTransaction,eth_sendTransaction`     |
 | `OFFER_RECEIPT_SIGNING_KEY` | Ethereum private key (secp256k1) for EIP-712 offer/receipt signing | `0xPLACEHOLDER`                    |
 
